@@ -44,14 +44,22 @@ env:
   MIKRO_LICENSE_PUBLIC_KEY: ${{ secrets.MIKRO_LICENSE_PUBLIC_KEY }}
   MIKRO_NPK_SIGN_PUBLIC_KEY: ${{ secrets.MIKRO_NPK_SIGN_PUBLIC_KEY }}
   MIKRO_CLOUD_PUBLIC_KEY: ${{ secrets.MIKRO_CLOUD_PUBLIC_KEY }}
-  MIKRO_LICENCE_URL: ${{ secrets.MIKRO_LICENCE_URL }}
-  CUSTOM_LICENCE_URL: ${{ secrets.CUSTOM_LICENCE_URL }}
-  MIKRO_UPGRADE_URL: ${{ secrets.MIKRO_UPGRADE_URL }}
-  CUSTOM_UPGRADE_URL: ${{ secrets.CUSTOM_UPGRADE_URL }}
-  MIKRO_RENEW_URL: ${{ secrets.MIKRO_RENEW_URL }}
-  CUSTOM_RENEW_URL: ${{ secrets.CUSTOM_RENEW_URL }}
-  MIKRO_CLOUD_URL: ${{ secrets.MIKRO_CLOUD_URL }}
-  CUSTOM_CLOUD_URL: ${{ secrets.CUSTOM_CLOUD_URL }}
+  #MIKRO_LICENCE_URL: ${{ secrets.MIKRO_LICENCE_URL }}
+  #CUSTOM_LICENCE_URL: ${{ secrets.CUSTOM_LICENCE_URL }}
+  #MIKRO_UPGRADE_URL: ${{ secrets.MIKRO_UPGRADE_URL }}
+  #CUSTOM_UPGRADE_URL: ${{ secrets.CUSTOM_UPGRADE_URL }}
+  #MIKRO_RENEW_URL: ${{ secrets.MIKRO_RENEW_URL }}
+  #CUSTOM_RENEW_URL: ${{ secrets.CUSTOM_RENEW_URL }}
+  #MIKRO_CLOUD_URL: ${{ secrets.MIKRO_CLOUD_URL }}
+  #CUSTOM_CLOUD_URL: ${{ secrets.CUSTOM_CLOUD_URL }}
+  MIKRO_LICENCE_URL: upgrade.mikrotik.com
+  CUSTOM_LICENCE_URL: upgrade.mikrotik.com
+  MIKRO_UPGRADE_URL: upgrade.mikrotik.com
+  CUSTOM_UPGRADE_URL: upgrade.mikrotik.com
+  MIKRO_RENEW_URL: upgrade.mikrotik.com
+  CUSTOM_RENEW_URL: upgrade.mikrotik.com
+  MIKRO_CLOUD_URL: upgrade.mikrotik.com
+  CUSTOM_CLOUD_URL: upgrade.mikrotik.com
 
 jobs:
   Set_BuildTime:
